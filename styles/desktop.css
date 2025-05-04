@@ -1,0 +1,80 @@
+body {
+    background-color: #F4F0E2;
+}
+
+#header {
+    width: 100%;           
+    margin: auto; 
+    border: 1px #F4F0E2 solid;
+    padding: 30px;
+    text-align: center;
+    background-color: #D1EFEF;
+    box-sizing: border-box;
+    font-family: "Hi Melody", serif;
+    font-size: 38px;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
+#bio {
+    width: 100%;           
+    margin: 10px auto; 
+    border: 2px grey solid;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: "Gowun Dodum", serif;
+}
+
+#bio h2 {
+    font-size: 35px;
+}
+
+#bio p {
+    font-size: 20px;
+}
+
+.icon {
+    width:10%;
+    border: 5px solid #F4F0E2;
+    padding:5px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.icon img {
+    width: 50%;
+    height: 50%;
+    opacity: 0.8;
+}
+
+.text {
+    font-family: "Gowun Dodum", serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.icon a:hover img {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.icon a:active img {
+    opacity: 0.3;
+    transform: scale(0.9);
+}
+
+footer {
+    clear: both;
+    width: 100%;           
+    margin: 10px auto; 
+    border: 1px #F4F0E2 solid;
+    padding: 15px;
+    text-align: center;
+    background-color: #D1EFEF;
+    box-sizing: border-box;
+    font-family: "Gowun Dodum", serif;
+    font-weight: 200;
+    font-size: 15px;
+}
